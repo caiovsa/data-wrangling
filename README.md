@@ -35,6 +35,6 @@ After all that i realized some small analysis, checking things like: Breed popul
  
 * tweet_json.txt ---> Where we stored the data gathered from the API;
 
-* twitter-archive-enc.csv ---> First dataset, with the tweets from WeRateDogs;
+* twitter-archive-enhanced.csv.csv ---> First dataset, with the tweets from WeRateDogs;
  
 * Wrangle_act.ipynb ---> Jupyter notebook file.
