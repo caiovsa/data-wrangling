@@ -1,0 +1,9 @@
+consumer_key = 'wQJ2kFcKhQV5HWv72rD0bxFnH'
+consumer_secret = 'F0LfJL9C8tpodO6vX7jY7NvMM9r4nmMDrh2kYzkWtRNtKLPVpY'
+access_token = '1286740088471326720-XKgFG7zgR1omD286bOJhPTLbXiFsVw'
+access_secret = '0DxyMhnEacBr8GvyZoBgHreYseEozMliUGfNObqHHjbAE'
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_secret)
+
+api = tweepy.API(auth, wait_on_rate_limit=True)
